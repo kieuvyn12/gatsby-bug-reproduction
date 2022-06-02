@@ -1,0 +1,26 @@
+{
+  "name": "bug-reproduction-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "bug-reproduction-site",
+  "author": "KV Nguyen",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "gatsby": "^4.15.2",
+    "gatsby-plugin-mdx": "^3.15.1",
+    "gatsby-source-filesystem": "^4.15.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
