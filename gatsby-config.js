@@ -10,5 +10,13 @@ module.exports = {
       "path": "./src/pages/"
     },
     __key: "pages"
-  }]
+  },
+  `gatsby-transformer-documentationjs`,
+  {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      name: `source`,
+      path: `${__dirname}/./src/`,
+    },
+  },]
 };
